@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+.nav-buttons {
+    margin-left: 45%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 2.5em;
+    font-weight: 950;
+}
+h2{
+    font-size: 1.8em;
+    font-weight: 900;
+}
+h3{
+    font-size: 1.5em;
+    font-weight: 900;
+}
+h4{
+    font-size: 1.2em;
+    font-weight: 800;
+}
+h5{
+    font-size: 1em;
+    font-weight: 600;
+}
+h6{
+    color: #000;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+button {
+    font-size: 0.8rem;
+    font-weight: 900;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #1d1d1d;
+    color: #fff;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+
+.logo {
+    border-radius: 10px;
+}
+
+.navbar{
+    font-size: 16px;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    top: 0;
+    left: 0;
+    box-shadow: 0 5px 10px rgb(0,0,0,0.1);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 0 20px;
+    color: #000;
+  }
+  
+  .nav-link {
+    color: #000;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover,
+  .navbar i:hover,
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar i:hover {
+    color: blueviolet;
+  }  
+
+.navbar i {
+    font-size: 1.2rem;
+    padding: 0 0.7px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.navbar a {
+    color: #000;
+    font-weight: 700;
+}
+
+@media only screen and (max-width:990px) {
+    .nav-buttons {
+        margin: 10px;
+    }
+
+    .nav-buttons ul {
+        margin: 1rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .nav-buttons ul .fas {
+        margin: 20px 5px 10px 20px;
+
+    }
+}
+
+#home {
+    background-image: url('../imgs/bg.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position-y: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#home span {
+    color: blueviolet;
+}
+
+#new {
+    margin-top: 50px;
+}
+
+#new .one img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#new .one {
+    position: relative;
+}
+
+#new .one .details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color:mediumpurple;
+    font-weight: bold;
+    opacity: 0.7;
+    background-color: rgb(1, 1, 1);
+    width: 100%;
+    height: 100%;
+}
+
+#new .one .details:hover {
+    background-color: transparent;
+    color: #000;
+    font-weight: bold;
+}
+#new .one:nth-child(1) .details {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+}
+
+#new .one:nth-child(2) .details {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+}
+
+#new .one:nth-child(3) .details {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+}
+
+.product {
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.product img {
+    height: 300px;
+}
+
+.product:hover img {
+    opacity: 0.8;
+}
+
+hr {
+    width: 30px;
+    height: 3px !important;
+    opacity: 1 !important;
+    background-color: blueviolet;
+}
+
+#banner {
+    background-image: url(../imgs/back.jpg);
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 80px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#banner h1 {
+    color: blueviolet;
+}
+
+#banner button {
+    background-color: blueviolet;
+}
+
+#banner button:hover {
+    background-color: #1d1d1d;
+    color: #fff;
+}
+
+footer {
+    background-color: #1d1d1d;
+    color: #fff;
+  }
+  
+footer a {
+    color: #fff;
+}
+  
+footer a:hover {
+    color: blueviolet;
+}
+
+.contact-us {
+    margin-top: 150px;
+    justify-content: space-between;
+}  
+
+.description {
+    margin-top: 100px;
+    justify-content: space-between;
+}  
+
+.description p {
+    margin-top: 20px;
+}
+
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+.single-product input {
+    width: 60px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.cart table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart .product-info {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 700;
+}
+
+.cart th {
+    text-align: left;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: mediumpurple;
+}
+
+.cart td {
+    padding: 10px 20px;
+}
+
+.cart td img {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.cart td input {
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+    font-weight: 700;
+}
+
+.cart td a {
+    color: blueviolet;
+    font-weight: 700;
+}
+
+.cart .remove-btn {
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: #fff;
+    border: none;
+    width: 100%;
+    text-align: left;
+}
+
+.cart .edit-btn {
+    color: blueviolet ;
+    text-decoration: none ;
+    font-size: 15px;
+    background-color: #fff;
+    border: none;
+}
+  
+
+.cart .product-info p{
+    margin: 3px;
+}
+
+.cart small {
+    font-weight: 700;
+}
+
+.cart span {
+    font-weight: 700;
+}
+
+.cart-total {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart-total table {
+    width: 100%;
+    max-width: 500px;
+    border-top: 3px solid blueviolet;
+    font-weight: 700;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+th:last-child {
+    text-align: right;
+}
+
+.checkout-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.checkout-btn {
+    background-color: #1d1d1d;
+    color: #fff;
+    font-weight: 600;
+}
+
+.checkout-btn:hover {
+    background-color: blueviolet;
+    color: #000;
+    font-weight: 600;
+}
+
+#login-form {
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid blueviolet;
+    font-weight: 700;
+}
+
+#login-form input {
+    width: 50%;
+    margin: 5px auto;
+    font-weight: 700;
+}
+
+#login-form #login-btn {
+    background-color: blueviolet;
+    color: #fff;
+}
+
+#login-form #register-url {
+    color: blueviolet;
+    font-weight: 700;
+}
+
+#register-form {
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid blueviolet;
+    font-weight: 700;
+}
+
+#register-form input {
+    width: 50%;
+    margin: 5px auto;
+    font-weight: 700;
+}
+
+#register-form #register-btn {
+    background-color: blueviolet;
+    color: #fff;
+}
+
+#register-form #login-url {
+    color: blueviolet;
+    font-weight: 700;
+}
+
+#account-form {
+    width: 50%;
+    margin: 35px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+#account-form input {
+    margin: 5px auto;
+}
+
+#account-form #change-pass-btn {
+    color: #fff;
+    background-color: blueviolet;
+}
+
+.account-info #orders-btn,#logout-btn {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.orders table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.orders .product-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.orders th {
+    padding: 5px 10px;
+    color: #fff;
+    background-color: blueviolet;
+}
+
+
+.orders td {
+    padding: 10px 20px;
+}
+
+.orders td img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+#checkout-form .checkout-small-element {
+    display: inline-block;
+    width: 48%;
+    margin: 10px auto;
+    font-weight: 700;
+}
+
+#checkout-form .checkout-large-element {
+    width: 96.5%;
+    font-weight: 700;
+}
+
+#checkout-form .checkout-btn-container {
+    margin: 10px;
+    text-align: right;
+    margin-right: 40px;
+}
+
+#checkout-form #checkout-btn {
+    color: #fff;
+    background-color: blueviolet;
+}
+
+#checkout-form input {
+    font-weight: 700;
+}
+
+#contact li,a {
+    color: blueviolet;
+}
+
+.box-container{
+    display: flexbox;
+    margin: 10px;
+    padding: 25px;
+    justify-content: space-between;
+}
+

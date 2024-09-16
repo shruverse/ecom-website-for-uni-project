@@ -1,0 +1,12 @@
+# Ignore vendor files (if using Composer)
+/vendor/
+
+# Ignore log files
+*.log
+
+# Ignore environment config
+.env
+
+# Ignore IDE and OS-specific files
+.DS_Store
+Thumbs.db
